@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Mate SC', serif;
+}
+#outer{
+	width: 100%;
+}
+.container{
+	margin: 0 auto;
+	width: 1500px;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	background: rgb(111,75,7);
+background: linear-gradient(180deg, rgba(111,75,7,1) 0%, rgba(125,84,7,0.8855917366946778) 100%);
+}
+.logo{
+	float: left;
+	line-height: 80%;
+}
+.logo:hover{
+	filter: drop-shadow(15px -5px 2px black);
+}
+.menu{
+	float: right
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 40px;
+
+}
+.menu ul li a{
+	font-size: 20px;
+	font-weight: 900;
+	color: #FFFFFF;
+}
+.menu ul li a:hover{
+	text-shadow: 5px -5px 5px black;
+}
+.main{
+	width: 100%;
+}	
+.banner{
+	width: 100%;
+	height: 768px;
+	background:url("image/animated-background-for-website-header-using-css-vanilla-javascript-css-animation-effects.jpg");
+	padding: 50px 0;
+}
+.text-box{
+	width: 50%;
+	float: left;
+	padding-top: 130px;
+	padding-left: 90px;
+}
+.text-box p{
+	color: white;
+	margin: 14px 0 20px;
+}
+.img{
+	width: 40%;
+	float: right;
+	margin-right: -150px;
+}
+.service{
+	background: url("image/animated-background-for-website-header-using-css-vanilla-javascript-css-animation-effects.jpg");
+	padding: 60px 0;
+	height: calc(1750px - 120px);
+}
+.sv-left{
+	width: 50%;
+	float: left;
+}
+.sv-box{
+	width: calc(380px - 20px);
+	height: calc(790px - 20px);
+	text-align: center;
+	padding: 10px;
+	margin: 30px 0 0px 150px;
+	box-shadow: 5px 0px 50px 5px black;
+	color: white;
+	background: #1C271D;
+}
+.sv-right{
+	width: 50%;
+	float: right;
+}
+.sv-box1{
+	width: calc(380px - 20px);
+	height: calc(720px - 20px);
+	text-align: center;
+	padding: 10px;
+	margin: 30px 0 0px 150px;
+	box-shadow: 5px 0px 50px 5px black;
+	color: white;
+	background: #1C271D;
+}
+.last{
+	background: url("image/animated-background-for-website-header-using-css-vanilla-javascript-css-animation-effects.jpg");
+	padding: 60px 0;
+	height: calc(1650px - 120px);
+}
+.sv-left-1{
+	width: 50%;
+	float: left;
+}
+.sv-box0{
+	width: calc(1000px - 20px);
+	height: calc(350px - 20px);
+	text-align: center;
+	padding: 10px;
+	margin: 30px 0 0px 100px;
+	box-shadow: 5px 0px 50px 5px black;
+	color: white;
+	background: #1C271D;
+}
+.img{
+	float: left;
+}
+.text{
+	width: 60%;
+	height: 300px;
+	text-align: center;
+	margin-top: 10px ;
+	margin-right: 20px;
+	float: right;
+}
+.text h1{
+	margin: 15px 0 10px 0;
+}
+.sv-box2{
+	width: calc(1000px - 20px);
+	height: calc(350px - 20px);
+	text-align: center;
+	padding: 10px;
+	margin: 30px 0 0px 100px;
+	box-shadow: 5px 0px 50px 5px black;
+	color: white;
+	background: #1C271D;
+	float: right;
+}
+.sv-box3{
+	width: calc(1000px - 20px);
+	height: calc(350px - 20px);
+	text-align: center;
+	padding: 10px;
+	margin: 410px 0 0px 100px;
+	box-shadow: 5px 0px 50px 5px black;
+	color: white;
+	background: #1C271D;
+}
+.sv-box4{
+	width: calc(1000px - 20px);
+	height: calc(350px - 20px);
+	text-align: center;
+	padding: 10px;
+	margin: 30px 0 0px 100px;
+	box-shadow: 5px 0px 50px 5px black;
+	color: white;
+	background: #1C271D;
+	float: right;
+}
+.footer{
+	background: rgb(111,75,7);
+	width: 100%;
+	height: 80px;
+}
+.bigbox{
+	margin: 0 auto;
+	width: 1500px;
+}
+.bigbox a{
+	margin-left: 40px;
+}
+
